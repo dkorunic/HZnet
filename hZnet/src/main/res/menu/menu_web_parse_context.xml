@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/provjeriKasnjenje"
+        android:title="@string/provjeri_kasnjenje" />
+    <item
+        android:id="@+id/listaStanica"
+        android:title="@string/lista_stanica" />
+
+</menu>

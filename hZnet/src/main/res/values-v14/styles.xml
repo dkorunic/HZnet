@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="drawer_item_activated" parent="@style/Theme.AppCompat">
+        <item name="android:background">?android:attr/activatedBackgroundIndicator</item>
+        <item name="android:minHeight">?android:attr/listPreferredItemHeightSmall</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceListItemSmall</item>
+    </style>
+
+</resources>

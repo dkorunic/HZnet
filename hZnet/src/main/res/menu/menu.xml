@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:net.dkorunic.hznet="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/odredi"
+        android:icon="@drawable/ic_location_place"
+        android:title="@string/odredi"
+        net.dkorunic.hznet:showAsAction="always" />
+    <item
+        android:id="@+id/zamijeni"
+        android:icon="@drawable/ic_shuffle"
+        android:title="@string/zamijeni"
+        net.dkorunic.hznet:showAsAction="always" />
+    <item
+        android:id="@+id/karta"
+        android:icon="@drawable/ic_location_map"
+        android:title="@string/karta_naziv"
+        net.dkorunic.hznet:showAsAction="always" />
+    <item
+        android:id="@+id/prikaziIzbornik"
+        android:icon="@drawable/ic_search"
+        android:title="@string/prikazi"
+        net.dkorunic.hznet:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/prikaziD"
+                android:title="@string/prikaziD" />
+            <item
+                android:id="@+id/prikaziS"
+                android:title="@string/prikaziS" />
+            <item
+                android:id="@+id/prikaziA"
+                android:title="@string/prikaziA" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/about"
+        android:title="@string/about_naziv"
+        net.dkorunic.hznet:showAsAction="never" />
+    <item
+        android:id="@+id/quit"
+        android:title="@string/kraj_naziv"
+        net.dkorunic.hznet:showAsAction="never" />
+
+</menu>

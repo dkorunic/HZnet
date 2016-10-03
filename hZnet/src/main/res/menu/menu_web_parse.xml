@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:net.dkorunic.hznet="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/karta"
+        android:title="@string/karta_naziv"
+        net.dkorunic.hznet:showAsAction="never" />
+    <item
+        android:id="@+id/about"
+        android:title="@string/about_naziv"
+        net.dkorunic.hznet:showAsAction="never" />
+    <item
+        android:id="@+id/quit"
+        android:title="@string/kraj_naziv"
+        net.dkorunic.hznet:showAsAction="never" />
+
+</menu>

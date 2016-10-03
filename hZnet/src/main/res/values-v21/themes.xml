@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MyActionBarTheme" parent="@style/Theme.AppCompat">
+        <item name="android:colorPrimary">@color/colorprimary</item>
+        <item name="android:colorPrimaryDark">@color/colorprimarydark</item>
+        <item name="colorPrimary">@color/colorprimary</item>
+        <item name="colorPrimaryDark">@color/colorprimarydark</item>
+    </style>
+
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HZnet</string>
+    <string name="nkdo">Odredišni kolodvor</string>
+    <string name="nkod">Polazni kolodvor</string>
+    <string name="odh">Vrijeme polaska</string>
+    <string name="k1">Via kolodvor</string>
+    <string name="prikaziD">Samo izravni vlakovi</string>
+    <string name="prikaziS">Svi vlakovi (s mogućim vezama)</string>
+    <string name="prikaziA">Svi vlakovi (sa svim vezama)</string>
+    <string name="isti_kolodvori">Polazni i odredišni kolodvor ne mogu biti isti!</string>
+    <string name="kraj_rada">Ovime će završiti rad aplikacije.</string>
+    <string name="kraj_naziv">Kraj rada</string>
+    <string name="zamijenjeni_kolodvori">Polazni i odredišni kolodvor su upravo zamijenjeni.</string>
+    <string name="odredjena_lokacija">Uspješno je određena najbliža poznata željeznička stanica te je postavljena za polazni kolodvor.</string>
+    <string name="neispravan_nkdo">Odredišni kolodvor je neispravno ili netočno unesen. Molim popravite naziv!</string>
+    <string name="neispravan_nkod">Polazni kolodvor je neispravno ili netočno unesen. Molim popravite naziv!</string>
+    <string name="neispravan_vlak">Nije odabran niti jedan vlak. Molim odaberite koji vlak želite provjeriti.</string>
+    <string name="odaberi">Odaberi</string>
+    <string name="odustani">Odustani</string>
+    <string name="ok">OK</string>
+    <string name="about">HZnet Android © 2011&#8211;2016\nDinko Korunić i Dragan Došen\n\nAplikacija služi dohvatu, obradi i prikazu podataka sa HZnet web-stranica bez korištenja ikakvih dodatnih web-usluga.\n\nHvala Valentini na idejama, diskusijama i stalnoj podršci; Daliboru, Goranu, Tomislavu i Anđelku na testiranju prvih verzija; Draganu na redizajnu UI-ja, nalaženju i rješavanju raznih bugova te poboljšanju koda; Hrvoju na pripremi i isporuci OSM podataka; Draženu na geospatial savjetima.</string>
+    <string name="about_naziv">O aplikaciji</string>
+    <string name="dohvat_greska">Nažalost nije bilo moguće dohvatiti HZnet podatke. Probajte nešto kasnije ponovno pokrenuti aplikaciju.</string>
+    <string name="lokacija_greska">Nažalost nije bilo moguće odrediti grad u kojem se nalazite, pa trebate ručno unijeti polazni kolodvor.</string>
+    <string name="prikazi">Prikaži vozni red</string>
+    <string name="provjeri_kasnjenje">Provjeri kašnjenje vlaka</string>
+    <string name="lista_stanica">Prikaži listu stanica</string>
+    <string name="prikaz_raspored">Prikaz rasporeda vlakova</string>
+    <string name="prikaz_kasnjenje">Prikaz kašnjenja vlaka</string>
+    <string name="prikaz_stanice">Prikaz stanica vlaka</string>
+    <string name="prikaz_karta">Prikaz karte stanica</string>
+    <string name="prikaz_mru">Najčešće korištene stanice</string>
+    <string name="zamijeni">Zamijeni kolodvore</string>
+    <string name="odredi">Odredi polazni kolodvor</string>
+    <string name="karta_naziv">Karta stanica</string>
+    <string name="drawer_open">Otvori</string>
+    <string name="drawer_close">Zatvori</string>
+    <string name="drawer_bye">Ovo je zadnji put da se ladica sa stanicama prikazuje automatski. Od sada nadalje treba kliknuti gore lijevo na ljestve za popis korištenih stanica!</string>
+
+</resources>

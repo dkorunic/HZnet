@@ -1,0 +1,11 @@
+README
+======
+
+HZnet is a Croatial Railways schedule Android app, quite popular while it was working. Unfortunately due to Croatian
+Railways blocking public API access on 10/01/2016, we're not able to fetch and display data any more. Here is the full
+source dump for your viewing pleasure: the only thing missing are keystore secret, API keys, manifest etc. which should
+not be disclosed.
+
+
+Cheers,
+D.

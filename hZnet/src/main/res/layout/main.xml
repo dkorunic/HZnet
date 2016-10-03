@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawerLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Content frame -->
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/status_bar"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dip">
+
+                <TextView
+                    android:id="@+id/textViewNKOD1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nkod" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteNKOD1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:imeOptions="actionNext"
+                    android:inputType="textCapCharacters"
+                    android:singleLine="true" />
+
+                <TextView
+                    android:id="@+id/textViewNKDO1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nkdo" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteNKDO1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:imeOptions="actionNext"
+                    android:inputType="textCapCharacters"
+                    android:singleLine="true" />
+
+                <TextView
+                    android:id="@+id/textViewODH1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/odh" />
+
+                <EditText
+                    android:id="@+id/editTextODH1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusableInTouchMode="false"
+                    android:inputType="text" />
+
+                <TextView
+                    android:id="@+id/textViewK1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/k1" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteK1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:imeOptions="actionDone"
+                    android:inputType="textCapCharacters"
+                    android:singleLine="true" />
+            </LinearLayout>
+        </ScrollView>
+
+        <!-- FAB -->
+        <com.shamanland.fab.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/scrollView1"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/ic_forward"
+            app:floatingActionButtonColor="@color/colorprimary" />
+
+        <!-- Action Bar -->
+        <include
+            android:id="@+id/status_bar"
+            layout="@layout/statusbar" />
+
+    </RelativeLayout>
+
+    <!-- Left drawer -->
+    <ListView
+        android:id="@+id/leftDrawer1"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/colorprimary"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/white"
+        android:dividerHeight="1dp" />
+
+</android.support.v4.widget.DrawerLayout>
